@@ -1,6 +1,20 @@
-// import home from "./image/home-img.svg"
-// import book from "./image/book-img.svg"
+import home from "./image/home-img.svg"
+import book from "./image/book-img.svg"
 import about from "./image/about-img.svg"
+import image2 from "./image/pic-2.png"
+import image1 from "./image/pic-1.png"
+import image3 from "./image/pic-3.png"
+import blog1 from "./image/blog-1.jpg"
+import blog2 from "./image/blog-2.jpg"
+import blog3 from "./image/blog-3.jpg"
+import doc7 from "./image/doc-7.jpg"
+import doc8 from "./image/doc-8.jpg"
+import doc9 from "./image/doc-9.jpg"
+import doc1 from "./image/doc-1.jpg"
+import doc4 from "./image/doc-4.jpg"
+import doc5 from "./image/doc-5.jpg"
+
+
 import './App.css';
 
 function App() {
@@ -8,7 +22,7 @@ function App() {
     <div className="App">
       <header class="header">
 
-<a href="#" class="logo"> <i class="fas fa-heartbeat"></i> EmergeCare. </a>
+<a href="#" class="logo"> <i class="fas fa-heartbeat"></i> EmergeCare</a>
 
 <nav class="navbar">
     <a href="#home">home</a>
@@ -31,13 +45,16 @@ function App() {
 <section class="home" id="home">
 
 <div class="image">
-    <img src={about} alt=""/>
+    <img src={home} alt=""/>
 </div>
 
 <div class="content">
-    <h3>stay safe, stay healthy</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed autem vero? Magnam, est laboriosam!</p>
-    <a href="#" class="btn"> contact us <span class="fas fa-chevron-right"></span> </a>
+    <h3>Emergecare,
+    Technology Tackling</h3>
+    <h3>Healthcare Criticalities</h3>
+    <p>Access to Good Healthcare Shouldn't depend where you lived.
+    Equal Access to Exceptional Healthcare: A Right, Not a Privilege.</p>
+    <a href="#" class="btn"> Register now<span class="fas fa-chevron-right"></span> </a>
 </div>
 
 </section>
@@ -49,7 +66,7 @@ function App() {
 <section class="icons-container">
 
 <div class="icons">
-    <i class="fas fa-user-md"></i>
+<i class="fas fa-user-md"></i>
     <h3>140+</h3>
     <p>doctors at work</p>
 </div>
@@ -84,48 +101,45 @@ function App() {
 
 <div class="box-container">
 
-    <div class="box">
-        <i class="fas fa-notes-medical"></i>
-        <h3>free checkups</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+   
+<div class="box">
+        <i class="fas fa-procedures"></i>
+        <h3>bed facility</h3>
+        <p>Comfort and Care in Every Room: Experience Hospitality at its Best.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
-
     <div class="box">
         <i class="fas fa-ambulance"></i>
         <h3>24/7 ambulance</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+        <p>Rapid Response, Anytime, Anywhere: Trust Our 24/7 Ambulance Services.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <div class="box">
         <i class="fas fa-user-md"></i>
         <h3>expert doctors</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+        <p>Expert Care, Exceptional Outcomes: Meet Our Team of World-Class Doctors.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <div class="box">
         <i class="fas fa-pills"></i>
         <h3>medicines</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+        <p>Your Health, Our Priority: Access the Latest Medicines and Treatments.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
-
-    <div class="box">
-        <i class="fas fa-procedures"></i>
-        <h3>bed facility</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
-        <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-    </div>
-
     <div class="box">
         <i class="fas fa-heartbeat"></i>
         <h3>total care</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+        <p>Comprehensive Care for a Better Tomorrow: Experience Total Wellness with Us.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
-
+    <div class="box">
+        <i class="fas fa-notes-medical"></i>
+        <h3>free checkups</h3>
+        <p>Invest in Your Health: Take Advantage of Our Free Checkups and Screenings.</p>
+        <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+    </div>
 </div>
 
 </section>
@@ -141,13 +155,13 @@ function App() {
 <div class="row">
 
     <div class="image">
-        <img src="image/about-img.svg" alt=""/>
+        <img src={about} alt=""/>
     </div>
 
     <div class="content">
         <h3>we take care of your healthy life</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ducimus, quod ex cupiditate ullam in assumenda maiores et culpa odit tempora ipsam qui, quisquam quis facere iste fuga, minus nesciunt.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero ipsam laborum porro voluptates voluptatibus a nihil temporibus deserunt vel?</p>
+        <p>"Welcome to EmergeCare, where your health and well-being are our top priority. Our mission is to provide accessible, high-quality healthcare services to all, regardless of their location. With a team of expert doctors, state-of-the-art facilities, and a commitment to patient-centered care, we strive to make a positive impact on the health and lives of our patients every day.</p>
+        <p>Whether you're in need of a routine checkup, complex medical treatment, or 24/7 ambulance services, we're here to support you. At EmergeCare, your health is in good hands. Contact us today to learn more.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
 
@@ -166,9 +180,9 @@ function App() {
 <div class="box-container">
 
     <div class="box">
-        <img src="image/doc-1.jpg" alt=""/>
-        <h3>john </h3>
-        <span>expert doctor</span>
+        <img src={doc8} alt=""/>
+        <h3>Dr. Prakruthi Harihar </h3>
+        <span>Dermatologist,Cosmetologist</span>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -178,9 +192,9 @@ function App() {
     </div>
 
     <div class="box">
-        <img src="image/doc-2.jpg" alt=""/>
-        <h3>john </h3>
-        <span>expert doctor</span>
+        <img src={doc7} alt=""/>
+        <h3>Dr Y K Mishra </h3>
+        <span>Cardiac Surgeon</span>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -190,9 +204,9 @@ function App() {
     </div>
 
     <div class="box">
-        <img src="image/doc-3.jpg" alt=""/>
-        <h3>john </h3>
-        <span>expert doctor</span>
+        <img src={doc9}alt=""/>
+        <h3>Dr. Sandeep Vaishya </h3>
+        <span>Neurosurgeon</span>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -202,9 +216,9 @@ function App() {
     </div>
 
     <div class="box">
-        <img src="image/doc-4.jpg" alt=""/>
-        <h3>john </h3>
-        <span>expert doctor</span>
+        <img src={doc4} alt=""/>
+        <h3>Dr Mark.</h3>
+        <span>cardiologists</span>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -214,9 +228,9 @@ function App() {
     </div>
 
     <div class="box">
-        <img src="image/doc-5.jpg" alt=""/>
-        <h3>john </h3>
-        <span>expert doctor</span>
+        <img src={doc1} alt=""/>
+        <h3>Dr Arthur Reese</h3>
+        <span>Psychiatry</span>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -226,9 +240,9 @@ function App() {
     </div>
 
     <div class="box">
-        <img src="image/doc-6.jpg" alt=""/>
-        <h3>john </h3>
-        <span>expert doctor</span>
+        <img src={doc5} alt=""/>
+        <h3>Dr Corrie </h3>
+        <span>Pediatric Anesthesiology</span>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -251,7 +265,7 @@ function App() {
 
 <div class="row">
     <div class="image">
-        <img src="image/book-img.svg" alt=""/>
+        <img src={book} alt=""/>
     </div>
 
     <form action="">
@@ -278,8 +292,8 @@ function App() {
 <div class="box-container">
 
     <div class="box">
-        <img src="image/pic-1.png" alt=""/>
-        <h3>john </h3>
+        <img src={image1} alt=""/>
+        <h3>Arjun.</h3>
         <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -287,12 +301,12 @@ function App() {
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
         </div>
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis libero nobis rem numquam nesciunt alias sapiente minus voluptatem, reiciendis consequuntur optio dolorem!</p>
+        <p class="text">Had a fantastic experience at EmergeCare. The staff was friendly, facilities were clean and modern, and the doctor was knowledgeable. They took the time to listen to my concerns and provide comprehensive care. Highly recommend for anyone seeking quality healthcare services.</p>
     </div>
 
     <div class="box">
-        <img src="image/pic-2.png" alt=""/>
-        <h3>john </h3>
+        <img src={image2} alt=""/>
+        <h3>Aanya.</h3>
         <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -300,12 +314,12 @@ function App() {
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
         </div>
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis libero nobis rem numquam nesciunt alias sapiente minus voluptatem, reiciendis consequuntur optio dolorem!</p>
+        <p class="text">I was in need of emergency medical care and EmergeCare was there for me every step of the way. Their 24/7 ambulance services were prompt and the staff was incredibly professional and compassionate. The facilities were well-equipped and the doctor was knowledgeable, providing expert care to help me recover. I am so grateful for the high-quality care I received at EmergeCare. I highly recommend them to anyone in need of medical attention.</p>
     </div>
 
     <div class="box">
-        <img src="image/pic-3.png" alt=""/>
-        <h3>john deo</h3>
+        <img src={image3} alt=""/>
+        <h3>Rishi.</h3>
         <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -313,7 +327,7 @@ function App() {
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
         </div>
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis libero nobis rem numquam nesciunt alias sapiente minus voluptatem, reiciendis consequuntur optio dolorem!</p>
+        <p class="text">The care I received at EmergeCare was truly exceptional. The staff made me feel comfortable and valued, and the facilities were top-notch. My doctor was thorough, taking the time to explain my condition and options for treatment. With access to the latest medicines and treatments, I was able to receive the care I needed to get back to good health. I am so grateful for the comprehensive care I received at EmergeCare and would highly recommend them to anyone in need of quality healthcare services.</p>
     </div>
 
 </div>
@@ -332,45 +346,45 @@ function App() {
 
     <div class="box">
         <div class="image">
-            <img src="image/blog-1.jpg" alt=""/>
+            <img src={blog1} alt=""/>
         </div>
         <div class="content">
             <div class="icon">
-                <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                <a href="#"> <i class="fas fa-calendar"></i> 4 feb, 2023 </a>
                 <a href="#"> <i class="fas fa-user"></i> by admin </a>
             </div>
-            <h3>blog title goes here</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, eius.</p>
+            <h3>Don't neglect your health</h3>
+            <p>schedule regular check-ups and screenings to stay on top of any potential health issues.</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
     </div>
 
     <div class="box">
         <div class="image">
-            <img src="image/blog-2.jpg" alt=""/>
+            <img src={blog2} alt=""/>
         </div>
         <div class="content">
             <div class="icon">
-                <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                <a href="#"> <i class="fas fa-calendar"></i> 4 feb, 2023 </a>
                 <a href="#"> <i class="fas fa-user"></i> by admin </a>
             </div>
-            <h3>blog title goes here</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, eius.</p>
+            <h3>Find the right doctor for you at EmergeCare.</h3>
+            <p>Our team of expert doctors is here to provide comprehensive care and support.</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
     </div>
 
     <div class="box">
         <div class="image">
-            <img src="image/blog-3.jpg" alt=""/>
+            <img src={blog3} alt=""/>
         </div>
         <div class="content">
             <div class="icon">
-                <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                <a href="#"> <i class="fas fa-calendar"></i> 4 feb, 2023 </a>
                 <a href="#"> <i class="fas fa-user"></i> by admin </a>
             </div>
-            <h3>blog title goes here</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, eius.</p>
+            <h3>The Importance of Regular Check-Ups</h3>
+            <p> Taking Control of Your Health.</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
     </div>
@@ -411,8 +425,8 @@ function App() {
         <h3>contact info</h3>
         <a href="#"> <i class="fas fa-phone"></i> +6294806963 </a>
         <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-        <a href="#"> <i class="fas fa-envelope"></i> anurajkumar@gmail.com </a>
-        <a href="#"> <i class="fas fa-envelope"></i> gunjansingh@gmail.com </a>
+        <a href="#"> <i class="fas fa-envelope"></i> emergecare@.com </a>
+        <a href="#"> <i class="fas fa-envelope"></i> helpemergecare@gmail.com </a>
         <a href="#"> <i class="fas fa-map-marker-alt"></i> bihar, india - 804423 </a>
     </div>
 
@@ -428,7 +442,7 @@ function App() {
 
 </div>
 
-<div class="credit"> created by <span>Anuraj Singh</span> | all rights reserved </div>
+<div class="credit"> created by <span><a href ="https://github.com/anurajkumar23">Anuraj kumar</a></span> | ©all rights reserved </div>
 
 </section>
     </div>

@@ -517,7 +517,7 @@ section:nth-child(even){
     border-top: .1rem solid rgba(0, 0, 0, .1);
 }
 
-.footer .credit span{
+.footer .credit span a{
     color:var(--green);
 }
 
