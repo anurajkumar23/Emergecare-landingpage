@@ -1,9 +1,12 @@
 import home from "./image/home-img.svg"
 import book from "./image/book-img.svg"
 import about from "./image/about-img.svg"
-import image2 from "./image/pic-2.png"
-import image1 from "./image/pic-1.png"
-import image3 from "./image/pic-3.png"
+// import image2 from "./image/pic-2.png"
+import img2 from "./image/img2.jpg"
+import img1 from "./image/img1.jpg"
+import img3 from "./image/img3.jpg"
+// import image1 from "./image/pic-1.png"
+// import image3 from "./image/pic-3.png"
 import blog1 from "./image/blog-1.jpg"
 import blog2 from "./image/blog-2.jpg"
 import blog3 from "./image/blog-3.jpg"
@@ -16,6 +19,7 @@ import doc5 from "./image/doc-5.jpg"
 
 
 import './App.css';
+import Navbutton from "./navbutton/Navbutton"
 
 function App() {
   return (
@@ -32,9 +36,10 @@ function App() {
     <a href="#book">book</a>
     <a href="#review">review</a>
     <a href="#blogs">blogs</a>
+    
 </nav>
 
-<div id="menu-btn" class="fas fa-bars"></div>
+<div id="menu-btn"><Navbutton/></div>
 
 </header>
 
@@ -292,8 +297,8 @@ function App() {
 <div class="box-container">
 
     <div class="box">
-        <img src={image1} alt=""/>
-        <h3>Arjun.</h3>
+        <img src={img1} alt=""/>
+        <h3>Anuraj</h3>
         <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -305,8 +310,8 @@ function App() {
     </div>
 
     <div class="box">
-        <img src={image2} alt=""/>
-        <h3>Aanya.</h3>
+        <img src={img2} alt=""/>
+        <h3>Aditya Raj</h3>
         <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -318,8 +323,8 @@ function App() {
     </div>
 
     <div class="box">
-        <img src={image3} alt=""/>
-        <h3>Rishi.</h3>
+        <img src={img3} alt=""/>
+        <h3>Rajdeep</h3>
         <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>

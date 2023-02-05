@@ -100,7 +100,7 @@ section:nth-child(even){
 }
 
 .header .logo i{
-    color: var(--green);
+    color: #FF0000;
 }
 
 .header .navbar a{
