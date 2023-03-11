@@ -79,7 +79,8 @@ function App() {
 <div class="icons">
     <i class="fas fa-users"></i>
     <h3>1040+</h3>
-    <p>satisfied patients</p>
+    <p>satisfied patients</p>  
+     
 </div>
 
 <div class="icons">
