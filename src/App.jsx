@@ -83,6 +83,7 @@ Let us be your personal guide as you travel to your favorite city...</p>
     <i class="fas fa-users"></i>
     <h3>1040+</h3>
     <p>satisfied patients</p>
+    
 </div>
 
 <div class="icons">
