@@ -1,21 +1,23 @@
-import home from "./image/home-img.svg"
-import book from "./image/book-img.svg"
-import about from "./image/about-img.svg"
-// import image2 from "./image/pic-2.png"
-import img2 from "./image/img2.jpg"
+import home from "./image/home.gif"
+import guide from "./image/Guide.png"
+import home2 from "./image/home.png"
+import doc1 from "./image/image1.jpg"
+import doc2 from "./image/image2.jpeg"
+import doc3 from "./image/image3.webp"
+import doc4 from "./image/image4.jpg"  
+import doc5 from "./image/image5.jpg"
+import doc6 from "./image/image6.jpg"
 import img1 from "./image/img1.jpg"
+import img2 from "./image/img2.jpg"
 import img3 from "./image/img3.jpg"
-// import image1 from "./image/pic-1.png"
-// import image3 from "./image/pic-3.png"
-import blog1 from "./image/blog-1.jpg"
-import blog2 from "./image/blog-2.jpg"
-import blog3 from "./image/blog-3.jpg"
-import doc7 from "./image/doc-7.jpg"
-import doc8 from "./image/doc-8.jpg"
-import doc9 from "./image/doc-9.jpg"
-import doc1 from "./image/doc-1.jpg"
-import doc4 from "./image/doc-4.jpg"
-import doc5 from "./image/doc-5.jpg"
+import blog1 from "./image/blog1.jpg"
+import blog2 from "./image/blog2.jpg"
+import blog3 from "./image/blog3.jpg"
+
+
+
+
+import { SiYourtraveldottv } from "react-icons/si";
 
 
 import './App.css';
@@ -26,14 +28,14 @@ function App() {
     <div className="App">
       <header class="header">
 
-<a href="#" class="logo"> <i class="fas fa-heartbeat"></i> EmergeCare</a>
+<a href="#" class="logo" > <SiYourtraveldottv /> Tourismo</a>
 
 <nav class="navbar">
     <a href="#home">home</a>
     <a href="#services">services</a>
     <a href="#about">about</a>
-    <a href="#doctors">doctors</a>
-    <a href="#book">book</a>
+    <a href="#doctors">guide</a>
+    <a href="#book">Contact</a>
     <a href="#review">review</a>
     <a href="#blogs">blogs</a>
     
@@ -50,16 +52,17 @@ function App() {
 <section class="home" id="home">
 
 <div class="image">
-    <img src={home} alt=""/>
+    <img src={home2} alt=""/>
 </div>
 
 <div class="content">
-    <h3>Emergecare,
-    Technology Tackling</h3>
-    <h3>Healthcare Criticalities</h3>
-    <p>Access to Good Healthcare Shouldn't depend where you lived.
-    Equal Access to Exceptional Healthcare: A Right, Not a Privilege.</p>
-    <a href="#" class="btn"> Register now<span class="fas fa-chevron-right"></span> </a>
+    <h3>Explore the Beauty 
+    With Us</h3>
+
+    <p>Discover your favorite city like a local with our expert guides.
+Explore the hidden gems of your favorite city with our knowledgeable guides.
+Let us be your personal guide as you travel to your favorite city...</p>
+    <a href="#" class="btn"> Explore Now<span class="fas fa-chevron-right"></span> </a>
 </div>
 
 </section>
@@ -71,27 +74,27 @@ function App() {
 <section class="icons-container">
 
 <div class="icons">
-<i class="fas fa-user-md"></i>
-    <h3>140+</h3>
-    <p>doctors at work</p>
+<i class="fas fa-user-tie"></i>
+    <h3>1000+</h3>
+    <p>Guide </p>
 </div>
 
 <div class="icons">
     <i class="fas fa-users"></i>
     <h3>1040+</h3>
-    <p>satisfied patients</p>
+    <p>satisfied customers</p>
 </div>
 
 <div class="icons">
-    <i class="fas fa-procedures"></i>
-    <h3>500+</h3>
-    <p>bed facility</p>
+    <i class="fas fa-user-graduate"></i>
+    <h3>3-10+</h3>
+    <p>Years Experenice</p>
 </div>
 
 <div class="icons">
-    <i class="fas fa-hospital"></i>
-    <h3>80+</h3>
-    <p>available hospitals</p>
+    <i class="fas fa-language "></i>
+    <h3>06+</h3>
+    <p>known Language</p>
 </div>
 
 </section>
@@ -108,40 +111,40 @@ function App() {
 
    
 <div class="box">
-        <i class="fas fa-procedures"></i>
-        <h3>bed facility</h3>
-        <p>Comfort and Care in Every Room: Experience Hospitality at its Best.</p>
+   <i class="fas fa-map-marked-alt"></i>
+        <h3>Personalized tour planning</h3>
+        <p>Helping your customers plan a customized itinerary for their trip based on their preferences and interests.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
     <div class="box">
-        <i class="fas fa-ambulance"></i>
-        <h3>24/7 ambulance</h3>
-        <p>Rapid Response, Anytime, Anywhere: Trust Our 24/7 Ambulance Services.</p>
-        <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-user-md"></i>
-        <h3>expert doctors</h3>
-        <p>Expert Care, Exceptional Outcomes: Meet Our Team of World-Class Doctors.</p>
+        <i class="fas fa-route"></i>
+        <h3>Guided tours</h3>
+        <p>Offering guided tours to popular attractions, historical sites, and cultural experiences in the destination.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <div class="box">
-        <i class="fas fa-pills"></i>
-        <h3>medicines</h3>
-        <p>Your Health, Our Priority: Access the Latest Medicines and Treatments.</p>
+        <i class="fas fa-utensils"></i>
+        <h3>Local knowledge</h3>
+        <p>Providing insider knowledge on the best restaurants, bars, shops, and other local favorites in the destination.</p>
+        <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-user-check"></i>
+        <h3>24/7 customer support</h3>
+        <p>Being available to assist customers with any questions or issues they may have during their trip.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
     <div class="box">
         <i class="fas fa-heartbeat"></i>
-        <h3>total care</h3>
-        <p>Comprehensive Care for a Better Tomorrow: Experience Total Wellness with Us.</p>
+        <h3>Safety and security advice</h3>
+        <p>Offering advice on staying safe and secure while traveling in the destination, including guidance on local laws and customs.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
     <div class="box">
-        <i class="fas fa-notes-medical"></i>
-        <h3>free checkups</h3>
+        <i class="fas fa-gopuram"></i>
+        <h3>Cultural experiences</h3>
         <p>Invest in Your Health: Take Advantage of Our Free Checkups and Screenings.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
@@ -160,13 +163,13 @@ function App() {
 <div class="row">
 
     <div class="image">
-        <img src={about} alt=""/>
+        <img src={home} alt=""/>
     </div>
 
     <div class="content">
-        <h3>we take care of your healthy life</h3>
-        <p>"Welcome to EmergeCare, where your health and well-being are our top priority. Our mission is to provide accessible, high-quality healthcare services to all, regardless of their location. With a team of expert doctors, state-of-the-art facilities, and a commitment to patient-centered care, we strive to make a positive impact on the health and lives of our patients every day.</p>
-        <p>Whether you're in need of a routine checkup, complex medical treatment, or 24/7 ambulance services, we're here to support you. At EmergeCare, your health is in good hands. Contact us today to learn more.</p>
+        <h3>Expert Guides with Local Perspectives</h3>
+        <p>Our online travel guide offers personalized and informative experiences for travelers. Our expert guides are knowledgeable about the destination and can provide unique insights and local perspectives. We work with travelers to create customized itineraries based on their interests and preferences.</p>
+        <p>Our online guide service offers a convenient and easy way to plan and book travel arrangements, prioritizing the safety and well-being of travelers. We also promote sustainable travel practices, encouraging travelers to respect the local environment and culture. Our commitment to excellent customer service and support ensures that travelers have a stress-free and enjoyable trip.</p>
         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
     </div>
 
@@ -180,14 +183,14 @@ function App() {
 
 <section class="doctors" id="doctors">
 
-<h1 class="heading"> our <span>doctors</span> </h1>
+<h1 class="heading"> our <span>Guides</span> </h1>
 
 <div class="box-container">
 
     <div class="box">
-        <img src={doc8} alt=""/>
-        <h3>Dr. Prakruthi Harihar </h3>
-        <span>Dermatologist,Cosmetologist</span>
+        <img src={doc1} alt=""/>
+        <h3>Santosh kumar </h3>
+        <span>Uttar pradesh</span>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -197,9 +200,9 @@ function App() {
     </div>
 
     <div class="box">
-        <img src={doc7} alt=""/>
-        <h3>Dr Y K Mishra </h3>
-        <span>Cardiac Surgeon</span>
+        <img src={doc2} alt=""/>
+        <h3>Y K Mishra </h3>
+        <span>Varanasi</span>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -209,9 +212,9 @@ function App() {
     </div>
 
     <div class="box">
-        <img src={doc9}alt=""/>
-        <h3>Dr. Sandeep Vaishya </h3>
-        <span>Neurosurgeon</span>
+        <img src={doc3}alt=""/>
+        <h3>Sandeep Chatterjee </h3>
+        <span>Kolkata</span>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -222,20 +225,8 @@ function App() {
 
     <div class="box">
         <img src={doc4} alt=""/>
-        <h3>Dr Mark.</h3>
-        <span>cardiologists</span>
-        <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-        </div>
-    </div>
-
-    <div class="box">
-        <img src={doc1} alt=""/>
-        <h3>Dr Arthur Reese</h3>
-        <span>Psychiatry</span>
+        <h3>Aravind Subramanian</h3>
+        <span>Chennai</span>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -246,8 +237,20 @@ function App() {
 
     <div class="box">
         <img src={doc5} alt=""/>
-        <h3>Dr Corrie </h3>
-        <span>Pediatric Anesthesiology</span>
+        <h3>Mishu Verma</h3>
+        <span>Patna</span>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src={doc6} alt=""/>
+        <h3>Javed Agrewala </h3>
+        <span>Agra</span>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -270,12 +273,14 @@ function App() {
 
 <div class="row">
     <div class="image">
-        <img src={book} alt=""/>
+        <img src={guide} alt=""/>
     </div>
 
     <form action="">
-        <h3>book appointment</h3>
+        <h3>book Guide</h3>
+        <p>Mentation your details and date you want to book travel guide</p>
         <input type="text" placeholder="your name" class="box"/>
+        <input type="text" placeholder="Location" class="box"/>
         <input type="number" placeholder="your number" class="box"/>
         <input type="email" placeholder="your email" class="box"/>
         <input type="date" class="box"/>
@@ -306,7 +311,7 @@ function App() {
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
         </div>
-        <p class="text">Had a fantastic experience at EmergeCare. The staff was friendly, facilities were clean and modern, and the doctor was knowledgeable. They took the time to listen to my concerns and provide comprehensive care. Highly recommend for anyone seeking quality healthcare services.</p>
+        <p class="text">"This traveling guide website has been a lifesaver for my trip planning! The detailed destination guides and budget planning tools have helped me to create the perfect itinerary and save money. I am so impressed with this website's dedication to sustainable travel! The guides on eco-friendly accommodations and reducing plastic waste have inspired me to be a more responsible traveler"</p>
     </div>
 
     <div class="box">
@@ -319,7 +324,9 @@ function App() {
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
         </div>
-        <p class="text">I was in need of emergency medical care and EmergeCare was there for me every step of the way. Their 24/7 ambulance services were prompt and the staff was incredibly professional and compassionate. The facilities were well-equipped and the doctor was knowledgeable, providing expert care to help me recover. I am so grateful for the high-quality care I received at EmergeCare. I highly recommend them to anyone in need of medical attention.</p>
+        <p class="text">"The travel community on this website is fantastic! I have connected with so many other travelers and received great tips and advice for my upcoming trips."
+
+"The cultural immersion guides on this website are excellent. They have helped me to better understand and appreciate the local customs and traditions of the places I have visited."</p>
     </div>
 
     <div class="box">
@@ -332,7 +339,9 @@ function App() {
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
         </div>
-        <p class="text">The care I received at EmergeCare was truly exceptional. The staff made me feel comfortable and valued, and the facilities were top-notch. My doctor was thorough, taking the time to explain my condition and options for treatment. With access to the latest medicines and treatments, I was able to receive the care I needed to get back to good health. I am so grateful for the comprehensive care I received at EmergeCare and would highly recommend them to anyone in need of quality healthcare services.</p>
+        <p class="text">"I stumbled upon this website while planning my first solo trip, and I am so glad I did! The safety tips and emergency advice gave me the confidence I needed to explore new places on my own."
+
+"I am a photography enthusiast and was blown away by the photography guides on this website. The tips and techniques I learned have greatly improved the quality of my travel photos."</p>
     </div>
 
 </div>
@@ -355,11 +364,11 @@ function App() {
         </div>
         <div class="content">
             <div class="icon">
-                <a href="#"> <i class="fas fa-calendar"></i> 4 feb, 2023 </a>
+                <a href="#"> <i class="fas fa-calendar"></i> 11 march, 2023 </a>
                 <a href="#"> <i class="fas fa-user"></i> by admin </a>
             </div>
-            <h3>Don't neglect your health</h3>
-            <p>schedule regular check-ups and screenings to stay on top of any potential health issues.</p>
+            <h3>Holy city of Varanasi</h3>
+            <p>"Good morning from the holy city of Varanasi, where the Ganges River flows and spirituality fills the air. Join me as we discover the traditions and rituals of this ancient city."</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
     </div>
@@ -370,11 +379,11 @@ function App() {
         </div>
         <div class="content">
             <div class="icon">
-                <a href="#"> <i class="fas fa-calendar"></i> 4 feb, 2023 </a>
+                <a href="#"> <i class="fas fa-calendar"></i> 11 march, 2023 </a>
                 <a href="#"> <i class="fas fa-user"></i> by admin </a>
             </div>
-            <h3>Find the right doctor for you at EmergeCare.</h3>
-            <p>Our team of expert doctors is here to provide comprehensive care and support.</p>
+            <h3>experience the grandeur of the Taj Mahal!</h3>
+            <p>"It's time to experience the grandeur of the Taj Mahal! Join me as we explore this iconic monument of love and its beautiful surroundings in Agra."</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
     </div>
@@ -385,11 +394,11 @@ function App() {
         </div>
         <div class="content">
             <div class="icon">
-                <a href="#"> <i class="fas fa-calendar"></i> 4 feb, 2023 </a>
+                <a href="#"> <i class="fas fa-calendar"></i> 11 march, 2023 </a>
                 <a href="#"> <i class="fas fa-user"></i> by admin </a>
             </div>
-            <h3>The Importance of Regular Check-Ups</h3>
-            <p> Taking Control of Your Health.</p>
+            <h3>fall in love with the beautiful landscapes of Ladakh</h3>
+            <p> "If you're a nature lover, you'll fall in love with the beautiful landscapes of Ladakh. Join me as we explore the stunning Himalayan region and learn about its unique culture."</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
     </div>
@@ -419,20 +428,20 @@ function App() {
 
     <div class="box">
         <h3>our services</h3>
-        <a href="#"> <i class="fas fa-chevron-right"></i> dental care </a>
-        <a href="#"> <i class="fas fa-chevron-right"></i> message therapy </a>
-        <a href="#"> <i class="fas fa-chevron-right"></i> cardioloty </a>
-        <a href="#"> <i class="fas fa-chevron-right"></i> diagnosis </a>
-        <a href="#"> <i class="fas fa-chevron-right"></i> ambulance service </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Destination guides </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Budget planning </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Travel news and updates </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Cultural immersion </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Travel safety </a>
     </div>
 
     <div class="box">
         <h3>contact info</h3>
         <a href="#"> <i class="fas fa-phone"></i> +6294806963 </a>
         <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-        <a href="#"> <i class="fas fa-envelope"></i> emergecare@.com </a>
-        <a href="#"> <i class="fas fa-envelope"></i> helpemergecare@gmail.com </a>
-        <a href="#"> <i class="fas fa-map-marker-alt"></i> bihar, india - 804423 </a>
+        <a href="#"> <i class="fas fa-envelope"></i> Tourismo@.com </a>
+        <a href="#"> <i class="fas fa-envelope"></i> tourismo@gmail.com </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i>Bihar,india - 804423 </a>
     </div>
 
     <div class="box">
@@ -447,7 +456,7 @@ function App() {
 
 </div>
 
-<div class="credit"> created by <span><a href ="https://github.com/anurajkumar23">Anuraj kumar</a></span> | ©all rights reserved </div>
+<div class="credit"> created by <span><a href ="https://github.com/anurajkumar23">Anuraj kumar, Aditya Raj, Rajdeep Jash</a></span> | ©all rights reserved </div>
 
 </section>
     </div>
